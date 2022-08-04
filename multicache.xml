@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name>plg_system_multicache</name>
+	<author>Wayne DSouza </author>
+	<creationDate>January 2015</creationDate>
+	<copyright>Copyright(C) 2015 multicache.org All rights reserved.</copyright>
+	<license>ProprietaryGNU GENERAL PUBLIC LICENSE  see license.txt</license>
+	<authorEmail>wayne.dsouza@onlinemarketingconsultants.in</authorEmail>
+	<authorUrl>http://OnlineMarketingConsultants.in</authorUrl>
+	<version>1.0.1.1</version>
+	<description>
+	<![CDATA[
+		A system plugin for the multicache component and fastcache library
+	]]>
+	</description>
+
+	<files>
+		<filename plugin="multicache">multicache.php</filename>
+		<filename>index.html</filename>
+		<filename>license.txt</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_multicache.ini</language>
+		<language tag="en-GB">en-GB.plg_system_multicache.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
